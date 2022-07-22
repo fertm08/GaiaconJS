@@ -11,21 +11,21 @@ let bonsai = { nombre:"Bonsai moyogi", precio: 3150}
 
 let grass = { nombre:"Césped", precio: 460}
 
-function mostrar_precio(){
-    if (mostrar_precio = 1){
+function mostrar_precio(num){
+    if (num == 1){
     console.log(grass.precio)}
-    else if (mostrar_precio = 2){
+    else if (num == 2){
     console.log(bonsai.precio);}
-    else if (mostrar_precio = 3){
+    else if (num == 3){
     console.log( tools.precio);
     }
-    else if (mostrar_precio = 4){
+    else if (num == 4){
     console.log( black_pot.precio);
     }
-    else if (mostrar_precio = 5){
+    else if (num == 5){
     console.log(funny_pot.precio);
     }
-    else if (mostrar_precio = 6){
+    else if (num == 6){
     console.log(castaño.precio);
     }
 }
@@ -34,24 +34,24 @@ function mostrar_precio(){
 
 let boton1 = document.getElementById("grass");
 boton1.preventDefault();
-boton1.addEventListener("onclick" , mostrar_precio(1));{};
+boton1.addEventListener("click" , mostrar_precio(1));
 
 let boton2 = document.getElementById("bonsai");
 boton2.preventDefault();
-boton2.addEventListener("onclick" , mostrar_precio(2));{};
+boton2.addEventListener("click" , mostrar_precio(2));
 
 let boton3 = document.getElementById("tools");
 boton3.preventDefault();
-boton3.addEventListener("onclick" , mostrar_precio(3));{};
+boton3.addEventListener("click" , mostrar_precio(3));
 
 let boton4 = document.getElementById("black_pot");
 boton4.preventDefault();
-boton4.addEventListener("onclick" , mostrar_precio(4));{};
+boton4.addEventListener("click" , mostrar_precio(4));
 
 let boton5 = document.getElementById("funny_pot");
 boton5.preventDefault();
-boton5.addEventListener("onclick" , mostrar_precio(5));{};
+boton5.addEventListener("click" , mostrar_precio(5));
 
 let boton6 = document.getElementById("castaño");
 boton6.preventDefault();
-boton6.addEventListener("onclick" , mostrar_precio(6));{};
+boton6.addEventListener("click" , mostrar_precio(6));

@@ -35,9 +35,44 @@ nav li a:hover {
 }
 
 .mainlogo {
-  animation-name: displacement;
-  animation-timing-function: ease-in;
-  animation-duration: 3s;
+  -webkit-animation-name: displacement;
+          animation-name: displacement;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes displacement {
+  0% {
+    width: 10%;
+    background-color: green;
+  }
+  20% {
+    width: 15%;
+  }
+  30% {
+    width: 20%;
+    background-color: rgb(89, 146, 4);
+  }
+  40% {
+    width: 25%;
+    background-color: greenyellow;
+  }
+  60% {
+    width: 30%;
+  }
+  70% {
+    width: 35%;
+    background-color: rgba(188, 247, 99, 0.589);
+  }
+  80% {
+    width: 32%;
+  }
+  100% {
+    width: 30%;
+    background-color: rgba(99, 228, 149, 0.308);
+  }
 }
 
 @keyframes displacement {
@@ -80,7 +115,6 @@ nav li a:hover {
     height: 220px;
     width: 100%;
   }
-
   .head__galeria {
     background-image: url(../imagenes/banner-g549241ff1_1280.jpg);
     background-size: cover;
@@ -88,7 +122,6 @@ nav li a:hover {
     height: 220px;
     width: 100%;
   }
-
   .mainlogo {
     height: 96px;
     width: 30%;
@@ -101,7 +134,6 @@ nav li a:hover {
     border: 1px solid greenyellow;
     border-radius: 20%;
   }
-
   .mobicon {
     color: rgb(131, 95, 18);
     font-size: 18px;
@@ -113,11 +145,9 @@ nav li a:hover {
     float: left;
     box-shadow: 0 0 15px gray;
   }
-
   .notmobile {
     display: none !important;
   }
-
   nav li a {
     text-decoration: none;
     color: rgb(180, 7, 223);
@@ -125,31 +155,25 @@ nav li a:hover {
     display: block;
     text-shadow: 0 0 15px black;
   }
-
   .moblist {
     list-style: none !important;
   }
-
   .bar li {
     display: inline-block;
     text-align: center;
   }
-
   nav {
     display: flex;
     gap: 1rem;
   }
-
   nav input {
     height: 30px;
     margin-top: 10px;
   }
-
   main {
     background-color: rgba(238, 130, 238, 0.247);
     background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
   }
-
   h2 a {
     color: rgb(209, 176, 99);
     font-size: 20px;
@@ -158,13 +182,11 @@ nav li a:hover {
     text-align: center;
     justify-content: center;
   }
-
   section video {
     display: block;
     width: 80%;
     margin: auto;
   }
-
   p {
     font-family: "Lobster", cursive;
     font-size: 1.5rem;
@@ -172,42 +194,35 @@ nav li a:hover {
     margin-top: 30px;
     color: rgb(209, 176, 99);
   }
-
   .principal-tienda {
     height: 900px;
     background-color: rgba(238, 130, 238, 0.247);
     background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
   }
-
   .descripcion {
     color: rgb(95, 78, 204);
     font-size: 26px;
     font-family: "Dancing Script", cursive;
     font-weight: 300;
   }
-
   .descripcion__caract {
     font-size: 18px;
     font-style: normal;
     font-family: "Dancing Script", cursive;
     color: rgb(118, 3, 185);
   }
-
   .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
   }
-
   .container img {
     width: 45%;
   }
-
   .tiempo {
     display: none;
   }
-
   .list-group-item {
     color: rgb(131, 95, 17);
     font-size: 1rem;
@@ -216,28 +231,23 @@ nav li a:hover {
     text-transform: uppercase;
     cursor: unset !important;
   }
-
   .pie {
     height: 80px;
     display: flex;
   }
-
   .pie i {
     float: left;
     padding-right: 20px;
     color: rgb(109, 44, 129);
     font-size: 14px;
   }
-
   .pie__sub {
     text-decoration: overline;
     font-size: 12px;
   }
-
   .pie a i {
     float: right;
   }
-
   .imgbox {
     display: grid;
     width: 90%;
@@ -245,24 +255,20 @@ nav li a:hover {
     grid-template-columns: 1fr;
     grid-row: repeat(7, 1fr);
   }
-
   .imgbox img {
     width: 100%;
   }
-
   .list-group-item--n2 {
     font-size: 30px;
     width: 85%;
     text-decoration: overline;
   }
-
   .results {
     display: flex;
     width: 95%;
     margin: auto;
     justify-content: center;
   }
-
   .mod {
     right: 2px;
     bottom: 2px;
@@ -280,7 +286,6 @@ nav li a:hover {
     height: 220px;
     width: 100%;
   }
-
   .head__galeria {
     background-image: url(../imagenes/banner-g549241ff1_1280.jpg);
     background-size: cover;
@@ -288,7 +293,6 @@ nav li a:hover {
     height: 220px;
     width: 100%;
   }
-
   .mainlogo {
     height: 96px;
     width: 30%;
@@ -301,7 +305,6 @@ nav li a:hover {
     border: 1px solid greenyellow;
     border-radius: 20%;
   }
-
   .bar {
     color: rgba(180, 45, 214, 0.753);
     font-size: 25px;
@@ -312,7 +315,6 @@ nav li a:hover {
     padding: 0px;
     float: left;
   }
-
   nav li a {
     text-decoration: none;
     color: rgba(142, 1, 197, 0.856);
@@ -320,32 +322,26 @@ nav li a:hover {
     display: block;
     font-size: 1.2rem;
   }
-
   .bar li {
     display: inline-block;
     text-align: center;
   }
-
   nav {
     display: flex;
   }
-
   .nav-link {
     color: rgb(209, 176, 99) !important;
     font-family: "Lobster", cursive;
     font-size: 1rem;
     text-shadow: 0 0 20px rgb(68, 9, 9), 0 0 15px rgb(71, 8, 148);
   }
-
   .tiempo {
     display: none;
   }
-
   main {
     background-color: rgba(238, 130, 238, 0.247);
     background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
   }
-
   h2 a {
     color: rgb(209, 176, 99);
     font-size: 25px;
@@ -354,15 +350,12 @@ nav li a:hover {
     text-align: center;
     justify-content: center;
   }
-
   section {
     display: flex;
   }
-
   video {
     display: flex;
   }
-
   p {
     font-family: "Lobster", cursive;
     font-size: 1.2rem;
@@ -370,36 +363,30 @@ nav li a:hover {
     margin-top: 30px;
     color: rgb(209, 176, 99);
   }
-
   .descripcion {
     color: rgb(95, 78, 204);
     font-size: 26px;
     font-family: "Dancing Script", cursive;
     font-weight: 300;
   }
-
   .descripcion__caract {
     font-size: 18px;
     font-style: normal;
     font-family: "Dancing Script", cursive;
     color: rgb(118, 3, 185);
   }
-
   .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
   }
-
   .container img {
     width: 45%;
   }
-
   .tiempo {
     display: none;
   }
-
   .list-group-item {
     color: rgb(131, 95, 17);
     font-size: 1.5rem;
@@ -408,34 +395,28 @@ nav li a:hover {
     text-transform: uppercase;
     cursor: unset !important;
   }
-
   .pie {
     display: inline-block;
     height: 60px;
   }
-
   .pie {
     background-size: cover;
     background-position: center;
   }
-
   .pie__sub {
     color: black;
     font-size: 10px;
     text-decoration: overline;
   }
-
   .pie i {
     float: left;
     padding-right: 12px;
     color: rgb(109, 44, 129);
     font-size: 16px;
   }
-
   .pie a i {
     float: right;
   }
-
   .imgbox {
     display: grid;
     width: 90%;
@@ -443,24 +424,20 @@ nav li a:hover {
     grid-template-columns: 1fr;
     grid-row: repeat(7, 1fr);
   }
-
   .imgbox img {
     width: 100%;
   }
-
   .list-group-item--n2 {
     font-size: 40px;
     width: 85%;
     text-decoration: overline;
   }
-
   .results {
     display: flex;
     width: 95%;
     margin: auto;
     justify-content: center;
   }
-
   .mod {
     right: 2px;
     bottom: 2px;
@@ -473,11 +450,9 @@ nav li a:hover {
   .notmobile {
     display: unset !important;
   }
-
   .mobilenav {
     display: none;
   }
-
   .list-group-item {
     color: rgb(131, 95, 17);
     font-size: 1.8rem;
@@ -486,24 +461,20 @@ nav li a:hover {
     text-transform: uppercase;
     cursor: unset !important;
   }
-
   .refvid {
     font-size: 22px;
   }
-
   .list-group-item--n2 {
     font-size: 40px;
     width: 85%;
     text-decoration: overline;
   }
-
   .results {
     display: flex;
     width: 95%;
     margin: auto;
     justify-content: center;
   }
-
   .mod {
     right: 2px;
     bottom: 2px;
@@ -526,7 +497,6 @@ nav li a:hover {
     border-radius: 20%;
     padding-left: 3rem;
   }
-
   .bar {
     color: rgba(180, 45, 214, 0.753);
     font-size: 25px;
@@ -537,46 +507,38 @@ nav li a:hover {
     padding: 0px;
     float: left;
   }
-
   nav {
     display: flex;
     gap: 1rem;
   }
-
   nav li a {
     text-decoration: none;
     color: rgb(248, 248, 248);
     text-transform: uppercase;
     display: block;
   }
-
   .bar li {
     display: inline-block;
     text-align: center;
   }
-
   nav input {
     height: 30px;
     margin-top: 10px;
   }
-
   .nav-link {
     color: rgb(209, 176, 99) !important;
     font-family: "Lobster", cursive;
     font-size: 1.7rem;
     text-shadow: 0 0 20px rgb(68, 9, 9), 0 0 15px rgb(71, 8, 148);
   }
-
   .tiempo {
     float: right;
     display: unset;
   }
-
   main {
     background-color: rgba(238, 130, 238, 0.247);
     background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
   }
-
   h2 a {
     color: rgb(209, 176, 99);
     font-size: 32px;
@@ -585,17 +547,14 @@ nav li a:hover {
     text-align: center;
     justify-content: center;
   }
-
   section {
     display: flex;
   }
-
   video {
     display: flex;
     margin-left: 1rem;
     width: 50%;
   }
-
   p {
     font-family: "Lobster", cursive;
     font-size: 25px !important;
@@ -603,21 +562,18 @@ nav li a:hover {
     margin-top: 30px;
     color: rgb(209, 176, 99);
   }
-
   .descripcion {
     color: rgb(95, 78, 204);
     font-size: 5rem;
     font-family: "Dancing Script", cursive, cursive;
     font-weight: 300;
   }
-
   .descripcion__caract {
     font-size: 2.5rem;
     font-style: normal;
     font-family: "Dancing Script", cursive;
     color: rgb(118, 3, 185);
   }
-
   .list-group-item {
     color: rgb(131, 95, 17);
     font-size: 2rem;
@@ -626,36 +582,30 @@ nav li a:hover {
     text-transform: uppercase;
     cursor: unset !important;
   }
-
   .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2.5rem;
   }
-
   .pie {
     background-size: cover;
     background-position: center;
   }
-
   .pie__sub {
     color: black;
     font-size: small;
     text-decoration: overline;
   }
-
   .pie i {
     float: left;
     padding-right: 25px;
     color: rgb(109, 44, 129);
     font-size: 18px;
   }
-
   .pie a i {
     float: right;
   }
-
   .imgbox {
     display: grid;
     width: 90%;
@@ -663,69 +613,56 @@ nav li a:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-row: repeat(7, 1fr);
   }
-
   .p1 {
     grid-column: 1/3;
     grid-row: 1/3;
   }
-
   .p2 {
     grid-column: 1/2;
     grid-row: 3/4;
   }
-
   .p3 {
     grid-column: 2/3;
     grid-row: 3/4;
   }
-
   .p10 {
     grid-column: 1/2;
     grid-row: 5/6;
   }
-
   .p5 {
     grid-column: 2/3;
     grid-row: 4/5;
   }
-
   .p9 {
     grid-column: 1/3;
     grid-row: 7/8;
   }
-
   .p7 {
     grid-column: 2/3;
     grid-row: 5/6;
   }
-
   .p8 {
     grid-column: 1/3;
     grid-row: 6/7;
   }
-
   .p4 {
     grid-column: 1/2;
     grid-row: 4/5;
   }
-
   .imgbox img {
     width: 100%;
   }
-
   .list-group-item--n2 {
     font-size: 40px;
     width: 85%;
     text-decoration: overline;
   }
-
   .results {
     display: flex;
     width: 95%;
     margin: auto;
     justify-content: center;
   }
-
   .mod {
     right: 2px;
     bottom: 2px;
@@ -748,7 +685,6 @@ nav li a:hover {
     border-radius: 20%;
     padding-left: 6rem;
   }
-
   .bar {
     color: rgba(180, 45, 214, 0.753);
     font-size: 30px;
@@ -759,33 +695,27 @@ nav li a:hover {
     padding: 0px;
     float: left;
   }
-
   nav {
     display: flex;
     gap: 1rem;
   }
-
   nav input {
     height: 30px;
     margin-top: 20px;
   }
-
   .nav-link {
     color: rgb(209, 176, 99) !important;
     font-family: "Lobster", cursive;
     font-size: 1.7rem;
     text-shadow: 0 0 20px rgb(68, 9, 9), 0 0 15px rgb(71, 8, 148);
   }
-
   .tiempo {
     float: right;
   }
-
   main {
     background-color: rgba(238, 130, 238, 0.247);
     background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
   }
-
   h2 a {
     color: rgb(209, 176, 99);
     font-size: 40px;
@@ -794,17 +724,14 @@ nav li a:hover {
     text-align: center;
     justify-content: center;
   }
-
   section {
     display: flex;
   }
-
   video {
     display: flex;
     margin-left: 1rem;
     width: 60%;
   }
-
   p {
     font-family: "Lobster", cursive;
     font-size: 3rem !important;
@@ -812,25 +739,21 @@ nav li a:hover {
     margin-top: 30px;
     color: rgb(209, 176, 99);
   }
-
   .principal {
     background-color: rgba(238, 130, 238, 0.247);
     background-image: url(imagenes/leaves-gebba8ed0c_1920.png);
   }
-
   .descripcion {
     color: rgb(95, 78, 204);
     font-size: 30px;
     font-family: "Dancing Script", cursive;
   }
-
   .descripcion__caract {
     font-size: 20px;
     font-style: normal;
     font-family: "Dancing Script", cursive;
     color: rgb(118, 3, 185);
   }
-
   .list-group-item {
     color: rgb(131, 95, 17) 5;
     font-size: 2rem;
@@ -839,45 +762,37 @@ nav li a:hover {
     text-transform: uppercase;
     cursor: unset !important;
   }
-
   .pie {
     background-size: cover;
     background-position: center;
   }
-
   .pie__sub {
     color: black;
     font-size: small;
     text-decoration: overline;
   }
-
   .pie i {
     float: left;
     padding-right: 20px;
     color: rgb(109, 44, 129);
     font-size: 20px;
   }
-
   .pie a i {
     float: right;
   }
-
   .imgcart {
     height: 15px;
     width: 15px;
   }
-
   .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
   }
-
   .container img {
     width: 30%;
   }
-
   .imgbox {
     display: grid;
     width: 90%;
@@ -885,66 +800,53 @@ nav li a:hover {
     grid-template-columns: repeat(3, 1fr);
     grid-row: repeat(5, 1fr);
   }
-
   .p1 {
     grid-column: 1/3;
     grid-row: 1/3;
   }
-
   .p2 {
     grid-column: 3/4;
     grid-row: 1/2;
   }
-
   .p3 {
     grid-column: 3/4;
     grid-row: 2/3;
   }
-
   .p10 {
     grid-column: 1/2;
     grid-row: 4/6;
   }
-
   .p5 {
     grid-column: 3/4;
     grid-row: 3/4;
   }
-
   .p9 {
     grid-column: 3/4;
     grid-row: 5/6;
   }
-
   .p7 {
     grid-column: 1/3;
     grid-row: 3/4;
   }
-
   .p8 {
     grid-column: 2/4;
     grid-row: 4/5;
   }
-
   .p4 {
     grid-column: 2/3;
     grid-row: 5/6;
   }
-
   .imgbox img {
     width: 100%;
   }
-
   .list-group-item--n2 {
     font-size: 40px;
     width: 85%;
     text-decoration: overline;
   }
-
   .results {
     display: flex;
   }
-
   .mod {
     right: 2px;
     bottom: 2px;
@@ -990,6 +892,14 @@ nav li a:hover {
 
 .mainlogo {
   text-shadow: 0 0 10px rgba(206, 131, 20, 0.918);
+}
+
+input::-moz-placeholder {
+  color: #AB04D4 !important;
+}
+
+input:-ms-input-placeholder {
+  color: #AB04D4 !important;
 }
 
 input::placeholder {
@@ -1061,4 +971,11 @@ h4 {
   color: rgb(0, 119, 255);
 }
 
-/*# sourceMappingURL=estilos.css.map */
+.darkmode {
+  background-image: url(imagenes/night.jpg);
+  background-size: cover;
+}
+
+.banner {
+  background-image: url(imagenes/banneroscuro.jpg);
+}/*# sourceMappingURL=estilos.css.map */
