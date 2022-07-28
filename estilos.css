@@ -971,11 +971,11 @@ h4 {
   color: rgb(0, 119, 255);
 }
 
-.darkmode {
+body.dark {
   background-image: url(imagenes/night.jpg);
   background-size: cover;
 }
 
-.banner {
+head.dark {
   background-image: url(imagenes/banneroscuro.jpg);
 }/*# sourceMappingURL=estilos.css.map */

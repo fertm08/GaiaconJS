@@ -897,10 +897,9 @@ $mods: (
 .pie i:hover{
     color: rgb(0, 119, 255)
 }
-.darkmode{
+body.dark{
     background-image: url(imagenes/night.jpg);
     background-size: cover;
 }
-.banner{
-    background-image: url(imagenes/banneroscuro.jpg);
-}
+head.dark{
+    background-image: url(imagenes/banneroscuro.jpg);}

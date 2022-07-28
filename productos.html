@@ -35,7 +35,7 @@
     <header class="head">
         <div>
             <section class="mainlogo">Gaia</section>
-            <button class="oscuro"> <i class="fa-solid fa-moon"></i></button>
+            <div><button id="switch"> <i class="fa-solid fa-moon"></i></button> </div>
             <!-- <section class="tiempo">
                 <-- weather widget start --
                 <! -- <div id="m-booked-bl-simple-70717">
@@ -120,7 +120,7 @@
                             <a class="nav-link" href="productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="tienda.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a class="nav-link cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -151,7 +151,7 @@
                     <div class="card-body">
                     <h4 class="card-title">Césped</h4>
                     <p class="card-text">Stenotaphrum secundatum, Recipiente N°14. Precio unitario: $460</p>
-                    <a href="#" class="btn btn-primary" id="grass">Añadir al carro</a>
+                    <a href="#" class="btn btn-primary comprar" >Añadir al carro</a>
                     </div>
             </div>
             <div class="card col-lg-6 col-xl-6 col-md-8 col-sm-8" style="width:400px">
@@ -159,7 +159,7 @@
                     <div class="card-body">
                     <h4 class="card-title">Bonsai moyogi</h4>
                     <p class="card-text">Bonsai N°3. Precio unitario: $3150</p>
-                    <a href="#" class="btn btn-primary" id="bonsai">Añadir al carro</a>
+                    <a href="#" class="btn btn-primary comprar" >Añadir al carro</a>
                     </div>
             </div>
             <div class="card col-lg-6 col-xl-6 col-md-8 col-sm-8" style="width:400px">
@@ -167,7 +167,7 @@
                     <div class="card-body">
                     <h4 class="card-title">Kit de jardineria "Terra"</h4>
                     <p class="card-text">Set de 5 herramientas. Precio set: $1300</p>
-                    <a href="#" class="btn btn-primary" id="tools">Añadir al carro</a>
+                    <a href="#" class="btn btn-primary comprar" >Añadir al carro</a>
                     </div>
             </div>
             <div class="card col-lg-6 col-xl-6 col-md-8 col-sm-8" style="width:400px">
@@ -175,7 +175,7 @@
                     <div class="card-body">
                     <h4 class="card-title">Maceta mediana negra</h4>
                     <p class="card-text">Recipente ceramico N°5. Precio unitario: $680</p>
-                    <a href="#" class="btn btn-primary" id="black_pot">Añadir al carro</a>
+                    <a href="#" class="btn btn-primary comprar" >Añadir al carro</a>
                     </div>
             </div>
             <div class="card col-lg-6 col-xl-6 col-md-8 col-sm-8" style="width:400px">
@@ -183,7 +183,7 @@
                     <div class="card-body">
                     <h4 class="card-title">Castanea sativa </h4>
                     <p class="card-text">Castaño (árbol) maceta N°4. Precio unitario: $1050</p>
-                    <a href="" class="btn btn-primary" id="castaño">Añadir al carro</a>
+                    <a href="#" class="btn btn-primary comprar" >Añadir al carro</a>
                     </div>
             </div>
             <div class="card col-lg-6 col-xl-6 col-md-8 col-sm-8" style="width:400px">
@@ -191,11 +191,14 @@
                     <div class="card-body">
                     <h4 class="card-title">Maceta zorro</h4>
                     <p class="card-text">Recipiente de ceramica con diseño N°3. Precio unitario: $580</p>
-                    <a href="#" class="btn btn-primary" id="funny_pot">Añadir al carro</a>
+                    <a href="#" class="btn btn-primary comprar" >Añadir al carro</a>
                     </div>
             </div>
         </section>
         </section>
+        <div id="basket">
+
+        </div>
         </main>
         <footer class="pie">
             <i class="pie__sub">Gaia botanica S.R.L, Av. Nevada 892, Terminos y condiciones</i>
@@ -209,7 +212,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
             integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
         </script>
-        <script src="./js/modo_oscuro.js"></script>
+        <script src="./js/test.js"></script> <!-- Aqui aplique la correccion de eventos del modo oscuro, funciona pero no superpone el estilo queda superpuesto-->
+        <script src="./js/test2.js"></script> <!-- Aqui hice las modificaciones correspondientes a la segunda entrega-->
+        <!--<script src="./js/modo_oscuro.js"></script>-->
         <!-- <script src="./js/precio.js"></script> -->
 </body>
 </html>
