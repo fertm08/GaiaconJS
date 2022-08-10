@@ -903,3 +903,11 @@ body.dark{
 }
 head.dark{
     background-image: url(imagenes/banneroscuro.jpg);}
+#clima{
+    float: right;
+    font-family: $font1;
+    font-size: 1.4rem;
+    font-weight: 400;
+    height: 15px;
+    color: rgb(0, 119, 255);
+}
